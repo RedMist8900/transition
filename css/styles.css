@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    display:flex;
+    justify-content: center;
+}
+
+.flexbox {
+    display:flex;
+    /* height: 800px; */
+    width: 800px;
+    background: grey;
+    gap:15px;
+    justify-content: space-evenly;
+}
+
+.flexbox > div {
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+}
+
+.boks1 {
+    background: lightblue;
+    transition: background 1s;
+}
+
+.boks1:hover {
+    background: yellow;
+}
+
+.boks2 {
+    background: pink;
+    transition: width 0.5s;
+}
+
+.boks2:hover {
+    width:400px;
+}
+
+#boks3 {
+    background: lightgreen;
+    
+}
