@@ -46,5 +46,9 @@ body {
 
 #boks3 {
     background: lightgreen;
-    
+    transition: border-radius 0.7s;
+}
+
+#boks3:hover {
+    border-radius: 50%;
 }
